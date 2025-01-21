@@ -1,0 +1,29 @@
+2024-08-01 09:58:49 INFO     Model: ModE
+2024-08-01 09:58:49 INFO     Data Path: ../data/FB15K
+2024-08-01 09:58:49 INFO     Num Entity: 14951
+2024-08-01 09:58:49 INFO     Num Relation: 1345
+2024-08-01 09:58:49 INFO     Num Train: 483142
+2024-08-01 09:58:49 INFO     Num Valid: 50000
+2024-08-01 09:58:49 INFO     Num Test: 59071
+2024-08-01 09:58:55 INFO     Model Parameter Configuration:
+2024-08-01 09:58:55 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2024-08-01 09:58:55 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2024-08-01 09:58:55 INFO     Parameter entity_embedding_openke: torch.Size([14951, 500]), require_grad = True
+2024-08-01 09:58:55 INFO     Parameter entity_embedding_random: torch.Size([14951, 500]), require_grad = True
+2024-08-01 09:58:55 INFO     Parameter relation_embedding_random: torch.Size([1345, 500]), require_grad = True
+2024-08-01 09:58:55 INFO     Parameter img_proj.weight: torch.Size([500, 4096]), require_grad = True
+2024-08-01 09:58:55 INFO     Parameter img_proj.bias: torch.Size([500]), require_grad = True
+2024-08-01 09:58:55 INFO     Parameter img_embeddings.weight: torch.Size([14951, 4096]), require_grad = True
+2024-08-01 09:59:00 INFO     Randomly Initializing ModE Model...
+2024-08-01 09:59:00 INFO     Start Training...
+2024-08-01 09:59:00 INFO     init_step = 0
+2024-08-01 09:59:00 INFO     batch_size = 1024
+2024-08-01 09:59:00 INFO     hidden_dim = 500
+2024-08-01 09:59:00 INFO     gamma = 12.000000
+2024-08-01 09:59:00 INFO     adversarial_temperature = 1.000000
+2024-08-01 09:59:27 INFO     Training average positive_sample_loss at step 0: 2.983085
+2024-08-01 09:59:27 INFO     Training average negative_sample_loss at step 0: 11.638742
+2024-08-01 09:59:27 INFO     Training average loss at step 0: 7.310914
+2024-08-01 09:59:27 INFO     Evaluating on Valid Dataset...
+2024-08-01 09:59:44 INFO     Evaluating the model... (0/25000)
+2024-08-01 10:01:24 INFO     Evaluating the model... (1000/25000)
